@@ -25,6 +25,6 @@ Wpisz do konsoli i sprawdź co się wyświetli:
 *   Hello World;
 *  "Hello World;
 ```
-console.log("Hello World");
-console.log(Hello World); - missing argument list
-console.log("Hello World); - error
+```console.log("Hello World");
+```console.log(Hello World); - missing argument list
+```console.log("Hello World); - error
