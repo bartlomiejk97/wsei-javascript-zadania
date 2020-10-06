@@ -10,3 +10,8 @@ console.log(5*2);
 console.log("Hello World");
 console.log(hello world);
 console.log("Hello world);
+            
+ // Dwa pierwsze zadania wyświetlają się okey, wszystko gra
+ // 3a) jest ok
+            //3b) nie ma zmiennej hello world
+            //3c) brak zamknięcia stringa 
