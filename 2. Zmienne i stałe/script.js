@@ -22,4 +22,4 @@ console.log(sum);
 let variable; 
 console.log(variable);
 
-The variable doesn't has assigned value to it
+//The variable doesn't has assigned value to it
