@@ -37,4 +37,48 @@ if(number1 > number2 && number3)
     console.log(i + ". I like JavaScript");
   }
 
+  // exercise 4
 
+let result = 0;
+for(let i = 1; i < 11; i++)
+  {
+    result += i;
+  }
+console.log(result);
+  
+  //exercise 5
+let n = 5;
+for(let i = 0; i <= n; i++)
+  {
+    console.log(`${i} - ${!i%2 ? `parzysta` : `nieparzysta`}`);
+  }
+//exercise 6
+for( let i = 0; i < 6; i++)
+  {
+    for(let j = 0; j < 6; j++)
+      {
+        console.log("i = "+ i + ", j= "+j )
+      }
+  }
+
+
+  // exercise 7
+for(let i = 0; i < 100; i++)
+  {
+    if(i % 3 === 0 && i % 5 ===0)
+      {
+        console.log("FizzBuzz");
+      }
+      else if( i % 3 === 0)
+        {
+          console.log("Fizz");
+        }
+      else if( i % 5 === 0)
+        {
+          console.log("Buzz");
+        }
+      else
+        {
+          console.log(i);
+        }
+  }
