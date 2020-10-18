@@ -7,3 +7,22 @@ const interval = setInterval(() => {
         clearInterval(interval);
     }
 }, 1000);
+
+
+// exercise 
+let myArray = [1, 2, 3, 4];
+let myTimer = setTimeout(() => {
+    for (let i=0; i < myArray.length; i++) {
+        console.log (myArray[i]);
+    }
+    let j = 0
+    let myInterval = setInterval(() => {
+        console.log (myArray[j]);
+        j++
+        if (j >= myArray.length) {
+            clearInterval(myInterval);
+        }
+    }, 3000)
+    
+}, 2000 )
+    
