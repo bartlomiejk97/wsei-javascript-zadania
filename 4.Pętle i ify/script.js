@@ -82,3 +82,35 @@ for(let i = 0; i < 100; i++)
           console.log(i);
         }
   }
+
+// exercise 8
+//a)
+let stars = "*";
+for(let i = 0; i < 5; i++)
+  {
+    var result = '';
+    for(let j = 0; j < i; j++)
+      {
+       
+        result += stars;
+        
+      }
+   console.log(result);
+    
+  }
+//b)
+let stars = "*";
+let spacer = ' ';
+for(let i = 0; i < 5; i++)
+{
+  var result = '';
+  for(let j = 5 -1; j > i; j--)
+    {
+      result += spacer;
+    }
+  for(let k = 0; k <= i; k++)
+    {
+      result += stars + spacer;
+    }
+  console.log(result);
+}
