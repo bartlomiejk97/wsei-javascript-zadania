@@ -9,20 +9,20 @@ const interval = setInterval(() => {
 }, 1000);
 
 
-// exercise 
-let myArray = [1, 2, 3, 4];
+// exercise 2
+let myArray = ['śnieg','zacznie','padać','w','grudniu'];
 let myTimer = setTimeout(() => {
-    for (let i=0; i < myArray.length; i++) {
-        console.log (myArray[i]);
-    }
-    let j = 0
+    for (let i = 0; i < myArray.length; i++)
+      {
+        console.log(myArray[i]);
+      }
+    let j = 0;
     let myInterval = setInterval(() => {
-        console.log (myArray[j]);
-        j++
-        if (j >= myArray.length) {
-            clearInterval(myInterval);
+      console.log(myArray[j]);
+      j++;
+      if(j >= myArray.length)
+        {
+          clearInterval(myInterval);
         }
-    }, 3000)
-    
-}, 2000 )
-    
+    },3000);
+},2000);
