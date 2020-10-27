@@ -11,3 +11,22 @@ for(let i = 0; i < arr.length; i++)
   {
     console.log(arr[i]);
   }
+
+// exercise 5
+for(let i = 0; i < arr.length; i++)
+  {
+    if(typeof arr[i] === "string")
+      {
+        console.log(arr[i]);
+      }
+  }
+
+// exercise 6
+for(let i = 0; i < arr.length; i++)
+  {
+    if(typeof arr[i] === "number")
+      {
+        console.log(arr[i]);
+      }
+  }
+
