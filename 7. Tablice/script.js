@@ -12,6 +12,18 @@ for(let i = 0; i < arr.length; i++)
     console.log(arr[i]);
   }
 
+// exercise 4
+for(let i = 0; i < arr.length; i++)
+  {
+    let myLen = arr.length;
+    if(i % 2 == 0)
+      {
+        console.log(arr[i]);
+      }
+  }
+
+
+
 // exercise 5
 for(let i = 0; i < arr.length; i++)
   {
