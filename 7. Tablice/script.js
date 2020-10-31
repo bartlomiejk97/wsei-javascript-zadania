@@ -1,18 +1,23 @@
+// exercise 1
 const arr = ['1',2,'3',4,'napiss'];
-//exercise 1 
+arr.forEach( el => {
+  console.log(el);
+})
+
+//exercise 2 
+// a)
 console.log(arr[0]);
 console.log(arr[1]);
-
-//exercise 2
+// b)
 console.log(arr[arr.length-1]);
 
-// exercise 3
+// c)
 for(let i = 0; i < arr.length; i++)
   {
     console.log(arr[i]);
   }
 
-// exercise 4
+// d)
 for(let i = 0; i < arr.length; i++)
   {
     let myLen = arr.length;
@@ -22,9 +27,7 @@ for(let i = 0; i < arr.length; i++)
       }
   }
 
-
-
-// exercise 5
+// e)
 for(let i = 0; i < arr.length; i++)
   {
     if(typeof arr[i] === "string")
@@ -33,7 +36,7 @@ for(let i = 0; i < arr.length; i++)
       }
   }
 
-// exercise 6
+// f)
 for(let i = 0; i < arr.length; i++)
   {
     if(typeof arr[i] === "number")
