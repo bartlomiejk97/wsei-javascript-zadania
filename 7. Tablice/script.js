@@ -116,6 +116,29 @@ function myTable(paramTable){
       }
 }
 myTable([1,2,3,4]);
+// exercise 6
+
+function myTable(myparamble)
+{
+   let sum =0;
+   let average;
+  for(let i = 0; i < myparamble.length; i++)
+    {
+      if(myparamble[i] % 2 == 0)
+        {
+          sum += myparamble[i];
+          average = sum / myparamble.length;
+        }
+      else
+        {
+          console.log("Liczba nieparzysta to " + myparamble[i]);
+        }
+      
+    }
+    
+    console.log(average);
+}
+myTable([2,22,22,44,32,1,3]);
 
 // exercise 7
 function tableSort(paramTable)
