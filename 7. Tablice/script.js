@@ -86,3 +86,17 @@ console.log(smallest);
 arr.forEach((v, i) => {
     console.log(arr[arrLength - i]);
 });
+
+// exercise 4 
+function myTable(paramTable){
+  let sum = 0; 
+  
+  for(let i = 0; i < paramTable.length; i++)
+    {
+      sum += paramTable[i];
+    }
+  console.log(sum);
+}
+myTable([1,2,3,4]);
+
+
