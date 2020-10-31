@@ -99,4 +99,31 @@ function myTable(paramTable){
 }
 myTable([1,2,3,4]);
 
+// exercise 5 
+function myTable(paramTable){
+  let sum = 0; 
+  
+  for(let i = 0; i < paramTable.length; i++)
+    {
+      sum += paramTable[i];
+    }
+  
+  let average = sum / paramTable.length;
+  
+  for(let i = 0; i < paramTable.length; i++)
+      {
+        console.log(paramTable[i] * average);
+      }
+}
+myTable([1,2,3,4]);
 
+// exercise 7
+function tableSort(paramTable)
+{
+  paramTable.sort();
+  for(let i = 0; i < paramTable.length; i++)
+    {
+      console.log(paramTable[i]);
+    }
+}
+tableSort([10,1,55,13,25,11,15]);
