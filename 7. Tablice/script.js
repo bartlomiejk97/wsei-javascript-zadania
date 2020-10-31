@@ -45,3 +45,44 @@ for(let i = 0; i < arr.length; i++)
       }
   }
 
+
+
+// exercise 3 
+const arr = [1,2,3,4,-5,-7,10];
+
+ //3.1
+console.log(arr.reduce((a,b) => a + b));
+// 3.2
+console.log(arr.reduce((a,b) => a - b));
+// 3.3
+console.log(arr.reduce((a,b) => a - b / arr.length));
+// 3.4
+arr.filter((v, i) => v % 2 === 0).forEach(v => {
+    console.log(v);
+});
+// 3.5
+arr.filter((v, i) => v % 2 !== 0).forEach(v => {
+    console.log(v);
+});
+
+// 3.6
+let biggest = 0;
+arr.forEach(v => {
+    if (v > biggest) {
+        biggest = v;
+    }
+});
+console.log(biggest);
+// 3.7
+let smallest = 0;
+arr.forEach(v => {
+    if (v < smallest) {
+        smallest = v;
+    }
+});
+console.log(smallest);
+// 3.8
+ const arrLength = arr.length - 1;
+arr.forEach((v, i) => {
+    console.log(arr[arrLength - i]);
+});
