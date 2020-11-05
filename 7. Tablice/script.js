@@ -150,3 +150,13 @@ function tableSort(paramTable)
     }
 }
 tableSort([10,1,55,13,25,11,15]);
+
+
+// exercise 10
+function ReserveSing(paramTable)
+{
+  return  paramTable.map(el => {
+    return el * (-1);
+  })
+}
+console.log(ReserveSing([1,2,3,4,6,-6]));
