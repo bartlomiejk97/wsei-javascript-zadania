@@ -45,3 +45,17 @@ for(let key in car)
   {
     console.log(key + " : " + car[key]);
   }
+
+
+// exercise 5 
+let car = {
+	name: 'Fiat',
+	age: 35,
+	color: 'red',
+};
+const carcountrycity = {
+	country: 'Poland',
+	city: 'Krakow',
+};
+car.production = carcountrycity;
+console.log(car.production.country, car.production.city);
