@@ -32,3 +32,16 @@ let newObject = {
     array.forEach(item => this.sum += item);
   }
 }
+
+
+// exercise 4
+let car = {
+  name: "BMW",
+  age: 12,
+  fuel: "petrol"
+}
+
+for(let key in car)
+  {
+    console.log(key + " : " + car[key]);
+  }
