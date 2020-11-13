@@ -23,3 +23,12 @@ let car = {
 }
 car.changeName("Fiat");
 console.log(car.name);
+
+// exercise 3
+let newObject = {
+  sum: 0,
+  sumFunction: function(array)
+  {
+    array.forEach(item => this.sum += item);
+  }
+}
