@@ -1,15 +1,11 @@
-// exercise 1 
-
-const car = {
-  type : "hatchback",
-  maxspeed: "230",
-  fuelusage: "7",
-  whatdoes () {
-    return " brum brum";
-  }
+// exercise 1
+let car = {
+  name: "BMW",
+  age: 6,
+  maxSpeed: 259,
+  singpost: false
 }
-
-console.log(car.type);
-console.log(car.maxspeed);
-console.log(car.fuelusage);
-console.log(car.whatdoes());
+console.log(car.name);
+console.log(car.age);
+console.log(car.maxSpeed);
+console.log(car.singpost);
