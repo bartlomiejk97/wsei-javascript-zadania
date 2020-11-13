@@ -59,3 +59,18 @@ const carcountrycity = {
 };
 car.production = carcountrycity;
 console.log(car.production.country, car.production.city);
+
+
+// exercise 6
+6//
+const car = {
+	name: 'Fiat',
+	age: 35,
+	color: 'red'
+};
+
+car.hello = () => {
+    console.log("Hello");
+}
+
+car.hello();
