@@ -109,3 +109,35 @@ const calc1=new Calculator(4,5);
 const calc2=new Calculator(4,0);
 console.log(calc1.sum());
 console.log(calc2.dzielenie());
+
+
+// exercise 4
+unction Constructor(){
+    this.number = 0;
+    
+    this.up = function() {
+        this.number++;
+    }
+    
+    this.down = function() {
+        if(this.number > 0){
+            this.number--;
+        }
+        else{
+            console.log("Jesteś na ziemi.");
+        }        
+    }
+    
+    this.showLevel = function() {
+        console.log(this.number);
+    }
+}
+
+var constructor = new Constructor();
+
+constructor.showLevel();
+constructor.up();
+constructor.up();
+constructor.showLevel();
+constructor.down();
+constructor.showLevel();
