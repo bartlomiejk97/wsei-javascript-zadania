@@ -76,3 +76,36 @@ personAdvanced.addDish("Zrazy");
 personAdvanced.addDish("Rosół");
 
 personAdvanced.logInfo();
+
+
+// exercise 3 
+function Calculator(a,b){
+    this.a=a;
+    this.b=b;
+    
+    this.sum=function(){
+        return (this.a+this.b);
+    }
+    this.odj=function(){
+        return (this.a-this.b);
+    }
+    this.mnozenie=function(){
+        return (this.a*this.b);
+    }
+    this.dzielenie=function(){
+        if(b==0){
+            console.log("Nie mozna przez 0");
+        } 
+        else {
+            return (this.a/this.b);
+        }
+        
+    }
+    
+}
+
+
+const calc1=new Calculator(4,5);
+const calc2=new Calculator(4,0);
+console.log(calc1.sum());
+console.log(calc2.dzielenie());
