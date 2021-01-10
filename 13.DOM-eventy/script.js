@@ -4,7 +4,7 @@ button.addEventListener("click", function (event) {
   console.log(event.type);
 });
 
-btn.addEventListener("mouseover", function (event) {
+button.addEventListener("mouseover", function (event) {
   
   console.log(event.type);
 });
