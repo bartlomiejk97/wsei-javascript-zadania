@@ -33,6 +33,42 @@ Person1.changeAge(26);
 Person1.changeCity("Budapeszt");
 console.log(Person1);
 
+// exercise 2
+function Calculator() {
+    this.memory = [];
+    this.sum = function(a, b) {
+        this.memory.push('Dodawanie');
+        return a + b;
+    }
+
+    this.sub = function(a, b) {
+        this.memory.push('Odejmowanie');
+        return a - b;
+    }
+
+    this.mult = function(a, b) {
+        this.memory.push('Monożenie');
+        return a * b;
+    }
+
+    this.div = function(a, b) {
+        this.memory.push('Dzielnie');
+        return a / b;
+    }
+
+    this.clear = function() {
+        this.memory = [];
+    }
+
+}
+
+const calc = new Calculator();
+console.log(calc.sum(2,5));
+console.log(calc.sum(5,5));
+console.log(calc.memory)
+calc.clear();
+console.log(calc.memory)
+
 
 // exercise 3
 function Game(){
