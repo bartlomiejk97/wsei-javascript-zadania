@@ -69,3 +69,19 @@ buttonEx5.addEventListener('click', function counting() {
         divEx5.innerHTML = numberOfClick
     }
 })
+
+
+// exercise 6
+ function redOrWhiteColor() {
+    document.addEventListener('scroll', (event) => {
+        var whereAmI = window.scrollY;
+        var body = document.querySelector('body');
+
+        if (whereAmI > 200) {
+            body.style.backgroundColor = 'red';
+        } else {
+            body.style.backgroundColor = 'white';
+        }
+    }); 
+}
+redOrWhiteColor()
