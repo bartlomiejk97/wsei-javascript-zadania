@@ -85,3 +85,41 @@ buttonEx5.addEventListener('click', function counting() {
     }); 
 }
 redOrWhiteColor()
+
+// exercise 7
+var input = document.querySelector("div#calculator > input");
+var buttons = document.querySelectorAll("div#calculator button");
+var number = 0;
+var number2 = 0;
+
+for(let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function() {
+        if(this.innerText === '+'){
+            input.value = number + number2;
+            number = 0;
+            number2 = 0;
+        } else if(this.innerText === '-'){
+            input.value = number - number2;
+            number = 0;
+            number2 = 0;
+        } else if(this.innerText === '*'){
+            input.value = number * number2;
+            number = 0;
+            number2 = 0;
+        } else if(this.innerText === '/'){
+            input.value = number /number2;
+            number = 0;
+            number2 = 0;
+        } else {
+            if(number === 0){
+                input.value = '';
+                number = Number(this.innerText);
+            } else {
+                number2 = Number(this.innerText);
+            }
+            
+        }
+        
+        
+    })
+}
