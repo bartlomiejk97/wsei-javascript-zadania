@@ -22,7 +22,7 @@ const Person1 = new Person("Bartek","Kocik","25","Polska","Krakow","polski");
 //const Person2 = new Person("Kwadrat","Kocik","24","Polska","Piast","polski");
 //const Person3 = new Person("Bartek","Kocik","23","Polska","Warszawa","polski");
 //const Person4 = new Person("Bartek","Kocik","22","Polska","Gdansk","polski");
-//onst Person5 = new Person("Bartek","Kocik","21","Polska","Lubinka","polski");
+//const Person5 = new Person("Bartek","Kocik","21","Polska","Lubinka","polski");
 console.log(Person1);
 //console.log(Person2);
 //console.log(Person3);
