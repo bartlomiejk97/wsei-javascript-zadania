@@ -1,4 +1,4 @@
-// exercise 1
+//gdgdggddgdgdgdggddg// exercise 1
 function getTagNames(els) {
     const elsArr = Array.from(els);
     return elsArr.map((el) => el.tagName);
