@@ -1,3 +1,6 @@
+
+// zmiana
+
 // zadanie 1
 console.log("Bartłomiej");
 

@@ -1,4 +1,4 @@
-// exercise 1
+// exercise 1 // efsfsfsf
 let boolOne = false;
 let boolTwo = true;
 console.log(boolOne === boolTwo);
